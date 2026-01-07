@@ -1,0 +1,38 @@
+Experiment NO 4                                                    
+// Arduino UNO: Blink two LEDs on pin 13 and pin 12 
+// The setup() function runs once when you press reset or power the board 
+void setup() { 
+// Initialize digital pins 13 and 12 as outputs 
+pinMode(13, OUTPUT); 
+pinMode(12, OUTPUT); 
+pinMode(11, OUTPUT); 
+} 
+// The loop() function runs over and over again forever 
+void loop() { 
+digitalWrite(13, HIGH);   // Turn LED on pin 13 ON 
+digitalWrite(12, HIGH);   
+digitalWrite(11, HIGH);  // Turn LED on pin 12 ON 
+delay(1000);              
+// Wait for 1 second 
+digitalWrite(13, LOW);    // Turn LED on pin 13 OFF 
+digitalWrite(12, LOW); 
+digitalWrite(11, LOW);     
+delay(1000);              
+// Turn LED on pin 12 OFF 
+// Wait for 1 second 
+} 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
